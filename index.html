@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <title>Test</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="visually-hidden">Какой-то заголовок, который не будет видно</h1>
+    <div class="container header__container">
+      <img src="./img/logo.png" alt="Логотип" class="header__logo">
+      <nav class="header__menu menu">
+        <ul class="menu__items">
+          <li class="menu__item"><a>О нас</a></li>
+          <li class="menu__item"><a>Состав</a></li>
+          <li class="menu__item"><a>Отзывы</a></li>
+          <li class="menu__item"><a>Заказ</a></li>
+        </ul>
+      </nav>
+      <button class="header__order-button">Сделать заказ</button>
+    </div>
+  </header>
+  <main>
+    <section class="promo">
+      <video class="info__video" loop="loop" autoplay="" muted="">
+        <source src="./video/Couple on the beach.mp4" type="video/mp4" />
+      </video>
+      <div class="container promo__container">
+        <h2 class="promo__title">Название продукта</h2>
+        <div class="promo__info info">
+
+          <div class="info__photo">
+            <img src="./img/prod.png" alt="">
+          </div>
+          <div class="info__specifications specifications">
+            <ul class="specifications__items">
+              <li class="specifications__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga et ex eum
+                tenetur neque! Vitae corrupti sunt veritatis
+                sequi cupiditate officiis? Minima consectetur expedita impedit quasi quisquam rem quaerat rerum!</li>
+              <li class="specifications__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga et ex eum
+                tenetur neque! Vitae corrupti sunt veritatis
+                sequi cupiditate officiis? Minima consectetur expedita impedit quasi quisquam rem quaerat rerum!</li>
+              <li class="specifications__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga et ex eum
+                tenetur neque! Vitae corrupti sunt veritatis
+                sequi cupiditate officiis? Minima consectetur expedita impedit quasi quisquam rem quaerat rerum!</li>
+            </ul>
+            <button class="specifications__order-button">
+              Сделать заказ
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="composition">
+      <div class="container">
+        <div class="composition__block">
+          <ul class="composition__items">
+            <li class="composition__item">
+              <img src="./img/logo.png" alt="" class="composition__item-image">
+              <p class="composition__text">Lorem ipsum dolor sit amet</p>
+            </li>
+            <li class="composition__item">
+              <img src="./img/logo.png" alt="" class="composition__item-image">
+              <p class="composition__text">Lorem ipsum dolor sit amet</p>
+            </li>
+            <li class="composition__item">
+              <img src="./img/logo.png" alt="" class="composition__item-image">
+              <p class="composition__text">Lorem ipsum dolor sit amet</p>
+            </li>
+          </ul>
+          <ul class="composition__lines">
+            <li class="composition__line composition__line-left"></li>
+            <li class="composition__line composition__line-left"></li>
+            <li class="composition__line composition__line-left"></li>
+          </ul>
+          <img src="./img/prod.png" alt="Изображение продукта" class="composition__image">
+          <ul class="composition__lines">
+            <li class="composition__line composition__line-right"></li>
+            <li class="composition__line composition__line-right"></li>
+            <li class="composition__line composition__line-right"></li>
+          </ul>
+          <ul class="composition__items">
+            <li class="composition__item">
+              <img src="./img/logo.png" alt="" class="composition__item-image">
+              <p class="composition__text">Lorem ipsum dolor sit amet</p>
+            </li>
+            <li class="composition__item">
+              <img src="./img/logo.png" alt="" class="composition__item-image">
+              <p class="composition__text">Lorem ipsum dolor sit amet</p>
+            </li>
+            <li class="composition__item">
+              <img src="./img/logo.png" alt="" class="composition__item-image">
+              <p class="composition__text">Lorem ipsum dolor sit amet</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/prod.png" class="reviews__swiper-image"></img>
+              <div class="reviews__swiper-name">
+                Jack
+              </div>
+              <div class="reviews__swiper-review">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quos in quam magni, illo voluptatum
+                culpa facilis nemo est quod doloremque laboriosam, at rerum sint. Officia deleniti veniam quod
+                recusandae.
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/prod.png" class="reviews__swiper-image"></img>
+              <div class="reviews__swiper-name">
+                Jack
+              </div>
+              <div class="reviews__swiper-review">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quos in quam magni, illo voluptatum
+                culpa facilis
+                nemo est quod doloremque laboriosam, at rerum sint. Officia deleniti veniam quod recusandae.
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/prod.png" class="reviews__swiper-image"></img>
+              <div class="reviews__swiper-name">
+                Jack
+              </div>
+              <div class="reviews__swiper-review">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quos in quam magni, illo voluptatum
+                culpa facilis
+                nemo est quod doloremque laboriosam, at rerum sint. Officia deleniti veniam quod recusandae.
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/prod.png" class="reviews__swiper-image"></img>
+              <div class="reviews__swiper-name">
+                Jack
+              </div>
+              <div class="reviews__swiper-review">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quos in quam magni, illo voluptatum
+                culpa facilis
+                nemo est quod doloremque laboriosam, at rerum sint. Officia deleniti veniam quod recusandae.
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/prod.png" class="reviews__swiper-image"></img>
+              <div class="reviews__swiper-name">
+                Jack
+              </div>
+              <div class="reviews__swiper-review">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quos in quam magni, illo voluptatum
+                culpa facilis
+                nemo est quod doloremque laboriosam, at rerum sint. Officia deleniti veniam quod recusandae.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section class="info-product">
+      <div class="container info-product__container">
+        <div class="info-product__description description">
+          <img src="./img/product.png" alt="Фото продукта" class="description-photo">
+          <div class="description__text">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quis odit soluta porro dignissimos,
+              doloremque unde maiores officiis nobis, commodi ab deserunt, nisi voluptate repellat fugiat aut id nostrum
+              ipsum?
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quis odit soluta porro dignissimos,
+              doloremque unde maiores officiis nobis, commodi ab deserunt, nisi voluptate repellat fugiat aut id nostrum
+              ipsum?
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quis odit soluta porro dignissimos,
+              doloremque unde maiores officiis nobis, commodi ab deserunt, nisi voluptate repellat fugiat aut id nostrum
+              ipsum?
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quis odit soluta porro dignissimos,
+              doloremque unde maiores officiis nobis, commodi ab deserunt, nisi voluptate repellat fugiat aut id nostrum
+              ipsum?
+            </p>
+            <button class="description__button">Заказать</button>
+          </div>
+        </div>
+        <div class="info-product__specifications specifications-info-product">
+          <ul class="specifications-info-product__items">
+            <li class="specifications-info-product__item">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            <li class="specifications-info-product__item">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            <li class="specifications-info-product__item">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="order">
+      <div class="container order-container">
+        <h2 class="order__title">Название продукта</h2>
+        <div id="timer"></div>
+        <div class="order__block">
+          <div class="order__price price-order">
+            <img src="./img/prod.png" alt="" class="price-order__photo">
+            <div class="price-order__price">
+              <span>3990</span> 
+              <sup class="price-order__old-price">5700</sup>
+            </div>
+          </div>
+          <div class="order__form form-order">
+            <div class="form-order__block-name">
+              <input autocomplete="off" type="text" name="form[]" placeholder="Имя" id="name" class="form-order__name">
+              <label for="name" class="form-order__name-label">Иван</label>
+            </div>
+            <div class="form-order__block-telephone">
+              <input autocomplete="off" type="number" name="form[]" placeholder="Телефон" class="form-order__telephone">
+              <label for="name" class="form-order__telephone-label">+79876543210</label>
+            </div>
+            <button class="form-order__button">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 0
+        },
+        // when window width is >= 480px
+        520: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 30
+        },
+        // when window width is >= 640px
+        840: {
+          slidesPerView: 4,
+          spaceBetween: 40
+        }
+      }
+    });
+  </script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
